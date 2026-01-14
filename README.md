@@ -1,4 +1,7 @@
-Dies ist ein Schulprojekt der FDS-Limburg aus 2025/26 der Klasse 12IBF
+Dies ist ein Schulprojekt der FDS-Limburg aus 2025/26 der Klasse 12IB
+Hardware die man braucht:
+
+BME680 Sensor
 
 Was am Ende fertig sein sollte
 Pi(400):
