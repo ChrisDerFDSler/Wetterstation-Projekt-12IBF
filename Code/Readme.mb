@@ -1,3 +1,17 @@
+1) Bibliotheken die man benötigt: 
+"smtplib" und "email.message"
+2) Verbindung zum smtplib
+smpt.(deine Mail).com <- hier muss man die Mil-Domain angeben
+
+
 Im E-Mailversenden muss man natürlich die Daten, also E-Mail Adresse, Nachricht etc. anpassen.
 Sensor Test ist mit KI erstellt worden, könnte fehler beinhalten, hat aber geklappt. Der Jetzige Sensor Code gibt alle 10 Sekunden 
 die Daten: Temperatur, Luftfeuchtigkeit, Druck und Gaswiderstand, wobei Gaswiderstand nicht wichtig ist.
+
+
+
+MQTT Was ist das? (Message Queing Telemetry Transport)
+
+MQTT ist ein Messaging-Protokoll, für die Kommunikation zwischen Geräten im IoT. 
+Es gibt Broker, welche die Nachrichten von Publishern entgegennehmen und diese dann an die Subscriber weiterleiten. 
+Der Publisher sendet Daten an den Broker und der Subscriber ist ein Gerät, welches sich für die Themen beim Broker registriert und empfängt. 
