@@ -1,1 +1,3 @@
-
+Im E-Mailversenden muss man natürlich die Daten, also E-Mail Adresse, Nachricht etc. anpassen.
+Sensor Test ist mit KI erstellt worden, könnte fehler beinhalten, hat aber geklappt. Der Jetzige Sensor Code gibt alle 10 Sekunden 
+die Daten: Temperatur, Luftfeuchtigkeit, Druck und Gaswiderstand, wobei Gaswiderstand nicht wichtig ist.
