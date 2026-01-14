@@ -16,5 +16,14 @@ MQTT ist ein Messaging-Protokoll, für die Kommunikation zwischen Geräten im Io
 Es gibt Broker, welche die Nachrichten von Publishern entgegennehmen und diese dann an die Subscriber weiterleiten. 
 Der Publisher sendet Daten an den Broker und der Subscriber ist ein Gerät, welches sich für die Themen beim Broker registriert und empfängt. 
 
+
+Zum Pi 400
 Auf dem Pi 400 wurden Apache / Webserver heruntergeladen, MariaDB und phpMyAdmin, der Rest muss noch irgendwie gemacht werden.
 MQTT Client für die Datenbankanbindung, direkte Darstellung und Mailversand existieren noch nicht.  
+
+
+
+Zum Pico
+
+Sensor kann mit KI-Code ausgelesen werden, muss noch eigenen schreiben
+Eine Mail mit Messdaten verschicken wurde noch nicht angefangen
