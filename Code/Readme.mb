@@ -1,7 +1,7 @@
 1) Bibliotheken die man benötigt: 
 "smtplib" und "email.message"
 2) Verbindung zum smtplib
-smpt.(deine Mail).com <- hier muss man die Mil-Domain angeben
+smpt.(deine Mail).com <- hier muss man die Mail-Domain angeben 
 
 
 Im E-Mailversenden muss man natürlich die Daten, also E-Mail Adresse, Nachricht etc. anpassen.
