@@ -21,8 +21,11 @@ Pi(400):
 
 
 Pico:
+
 -> Sensor auslesen und an MQTT-Broker senden (Publisher) 
 -> also Mail mit Messdaten versenden
+
+
 Konfigurieren einer Datei mit WLAN-Daten, E-Mail, IP des MQTT Brokers, Mailaccount des SMTP-Servers
 
 
