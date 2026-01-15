@@ -11,15 +11,15 @@ import random # Optional: für eine eindeutige Client ID
 
 # --- KONFIGURATION ANPASSEN! ---
 # WLAN-Zugangsdaten (Deine sind bereits im Code)
-WIFI_SSID = 'dd-wrt'
-WIFI_PASSWORD = '54tzck23'
+WIFI_SSID = 'anpassen'
+WIFI_PASSWORD = 'anpassen'
 # MQTT-Einstellungen
-MQTT_BROKER = "----------"###  # Z.B. "192.168.1.10" oder "broker.hivemq.com"
+MQTT_BROKER = "----------"###  # Z.B.IP vom Broker "192.168.1.10" oder "broker.hivemq.com"
 MQTT_PORT = 1883
 # Erstellt eine eindeutige Client-ID basierend auf der Pico-ID
 CLIENT_ID = b"pico_bme680_" + ubinascii.hexlify(machine.unique_id()) 
 TOPIC = "----------"### # Das Topic, unter dem die Daten gesendet werden
-# I2C-Pins für den BME680 (GP4/SDA, GP5/SCL wie in deinem Code)
+# I2C-Pins für den BME680 
 I2C_SDA_PIN = 4
 I2C_SCL_PIN = 5
 # Sensor initialisieren
@@ -30,8 +30,8 @@ EMAIL_ENABLED = True # NEUES BOOLEAN: Auf False setzen, um E-Mail zu deaktiviere
 # SMTP-Einstellungen (für den Absender, z.B. Gmail)
 SMTP_SERVER = "smtp.gmail.com"  
 SMTP_PORT = 465                 # 587 (TLS/STARTTLS) oder 465 (SSL)
-SMTP_SENDER_EMAIL = "-----------"###
-SMTP_APP_PASSWORD = "-----------"### # SEHR WICHTIG: App-Passwort verwenden!
+SMTP_SENDER_EMAIL = "-----------"### Eigene Sachen einsetzen
+SMTP_APP_PASSWORD = "-----------"### Eigene Sachen einsetzten
 # E-Mail-Einstellungen
 EMAIL_RECIPIENT = "---------"###
 EMAIL_SUBJECT = "BME680 Messdaten-Alarm vom Pico W"
@@ -178,4 +178,5 @@ while True:
             print("Wiederverbindung fehlgeschlagen, warte...")
     print("-----------------------------")
     time.sleep(2) # Sende alle 2 Sekunden (wie im Original)
+
 
