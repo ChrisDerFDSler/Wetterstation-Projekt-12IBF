@@ -1,4 +1,5 @@
 Dies ist ein Schulprojekt der FDS-Limburg aus 2025/26 der Klasse 12IB
+
 Hardware die man braucht:
 
 - BME680 Sensor
