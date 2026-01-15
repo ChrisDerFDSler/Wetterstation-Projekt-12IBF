@@ -23,6 +23,8 @@ Pi(400):
 Pico:
 
 -> Sensor auslesen und an MQTT-Broker senden (Publisher) 
+
+
 -> also Mail mit Messdaten versenden
 
 
