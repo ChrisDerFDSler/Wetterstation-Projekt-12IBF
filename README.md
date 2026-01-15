@@ -9,7 +9,7 @@ Was am Ende fertig sein sollte
 Pi(400):
 - MQTT Broker (Mosquitto)
 - LAMP-Server (XAMPP auf Linux)
-  > Apache/Webserver
+  > Apache/Webserver,
   > MariaDB (Datenbankmanagement)
   > php -> phpMyadmin
 - MQTT-Client für Mailverssand (Kunde / Subscriber)
