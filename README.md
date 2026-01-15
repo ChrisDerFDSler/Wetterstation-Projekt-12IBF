@@ -10,7 +10,7 @@ Pi(400):
 - MQTT Broker (Mosquitto)
 - LAMP-Server (XAMPP auf Linux)
   > Apache/Webserver,
-  > MariaDB (Datenbankmanagement)
+  > MariaDB (Datenbankmanagement),
   > php -> phpMyadmin
 - MQTT-Client für Mailverssand (Kunde / Subscriber)
 - MQTT-Client für Datenbankanbindung
