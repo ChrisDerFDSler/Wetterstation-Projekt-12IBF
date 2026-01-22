@@ -28,3 +28,13 @@ Zum Pico
 Sensor kann mit KI-Code ausgelesen werden, muss noch eigenen schreiben
 Eine Mail schicken ist möglich, es muss noch in den Sensor Code Integriert werden
 
+
+
+JSON
+{mid: xy,
+ temperatur: "20,2"
+ feuchte: "80,3"
+ druck: "998,3"
+ qualitaet: "12000,5"
+ timestamp: "30.01.2026 12:13:24"
+}
