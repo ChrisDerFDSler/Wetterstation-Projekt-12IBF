@@ -1,4 +1,4 @@
-Dies ist ein Schulprojekt der FDS-Limburg aus 2025/26 der Klasse 12IB
+Dies ist ein Schulprojekt der FDS-Limburg aus 2025/26 der Klasse 12IBF
 
 
 Hardware die man für die Testumgebung braucht:
