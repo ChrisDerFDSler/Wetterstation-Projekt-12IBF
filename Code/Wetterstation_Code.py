@@ -9,7 +9,7 @@ import random # Optional: für eine eindeutige Client ID
 #from umail import SMTP
 
 
-# --- KONFIGURATION ANPASSEN! ---
+# --- KONFIGURATION MUSS ANGEPASST WERDEN! ---
 # WLAN-Zugangsdaten (Deine sind bereits im Code)
 WIFI_SSID = 'anpassen'
 WIFI_PASSWORD = 'anpassen'
@@ -178,5 +178,6 @@ while True:
             print("Wiederverbindung fehlgeschlagen, warte...")
     print("-----------------------------")
     time.sleep(2) # Sende alle 2 Sekunden (wie im Original)
+
 
 
