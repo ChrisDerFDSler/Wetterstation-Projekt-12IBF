@@ -1,7 +1,7 @@
-Dies ist ein Schulprojekt der FDS-Limburg aus 2025/26 der Klasse 12IBF
+# Dies ist ein Schulprojekt der FDS-Limburg der Klasse 12IBF
 
 
-Hardware die man für die Testumgebung braucht:
+Hardware die wie für die Testumgebung brauchen:
 
 - BME680 Sensor
 - Pi 400
@@ -21,10 +21,9 @@ Pi(400):
 
 
 
-Pico:
+Pico W2040:
 
 -> Sensor auslesen und an MQTT-Broker senden (Publisher) 
-
 
 -> also Mail mit Messdaten versenden
 
